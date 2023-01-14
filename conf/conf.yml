@@ -1,0 +1,5 @@
+sleepTime : 2000 #延迟时间为3000毫秒
+url:
+  readUrl: http://127.0.0.1:3000/clipboard/read
+  writeUrl: http://127.0.0.1:3000/clipboard/write
+initMode: 1 # 1 表示启动后更新本地剪切板为远程内容 2 表示启动后将本地剪切板更新到远程
