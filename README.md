@@ -14,8 +14,9 @@
 ### 编译命令
 
 #### mac/linux
-`go build -ldflags="-s -w" -o Clipboard main.go`
+`go build -ldflags="-s -w" -o clipboard-server main.go`
 #### windows
 `go build -ldflags="-s -w" -o Clipboard.exe main.go`
 
-# fileshare-web
+
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64
