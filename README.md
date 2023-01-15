@@ -1,22 +1,20 @@
-## PublicClipboard-Client
+## clipboardshare-client
 
 共享剪切板客户端程序 支持win、mac双系统
 
 使用时需配置conf目录及conf.yml文件
 
 ### 相关仓库
-[PublicClipboard-Server](https://github.com/sxz799/PublicClipboard-Server)
 
-[PublicClipboard-Server-NoDB](https://github.com/sxz799/PublicClipboard-Server-NoDB)
+[clipboardshare-web](https://github.com/sxzhi799/clipboardshare-web)
 
-[PublicClipboard-Web](https://github.com/sxz799/PublicClipboard-Web)
+
+[clipboardshare-server](https://github.com/sxzhi799/clipboardshare-server)
 
 ### 编译命令
 
 #### mac/linux
-`go build -ldflags="-s -w" -o clipboard-server main.go`
+`go build -ldflags="-s -w" -o clipboard main.go`
 #### windows
-`go build -ldflags="-s -w" -o Clipboard.exe main.go`
+`go build -ldflags="-s -w" -o clipboard.exe main.go`
 
-
-CGO_ENABLED=0 GOOS=linux GOARCH=amd64
